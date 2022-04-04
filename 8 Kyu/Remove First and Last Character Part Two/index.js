@@ -32,3 +32,16 @@ function array(arr){
 function array(arr){
   return arr.split(",").slice(1,-1).join(" ") || null;
 }
+
+function squareDigits(num){
+  let str=num.toString().split('')
+  console.log(str)
+  let newNum=str.map(Number)
+  console.log(newNum)
+  let squared=newNum.forEach(num=>num**2)
+  console.log(squared)
+  return squared.join('')
+  
+}
+
+function squareDigits(3214);
