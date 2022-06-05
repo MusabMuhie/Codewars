@@ -14,6 +14,21 @@ Examples
 
 //My Solution
 
+function digital_root(n) {
+    // ...
+    let num=n
+   if(num<10){
+     return num
+   }else{
+     let arr=String(n).split('').map(Number)
+     num=arr.reduce((acc,c)=>acc+c,0)
+     return digital_root(num)
+   }
+   
+  }
 
 
 //Most Voted
+function digital_root(n) {
+    return (n - 1) % 9 + 1;
+  }
