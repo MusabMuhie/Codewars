@@ -13,8 +13,6 @@ s=a+b+c2s = \frac{a + b + c} 2s=
 2
 a+b+c
 ​
- 
-Output should have 2 digits precision.
 
 */
 
