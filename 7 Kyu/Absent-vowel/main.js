@@ -21,3 +21,4 @@ function absentVowel(x){
     let missing=vowels.filter(el=>!x.includes(el)).join('')
     return vowels.indexOf(missing)
     }
+
