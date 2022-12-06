@@ -28,6 +28,3 @@ describe("Basic tests",function(){
         })
     }
     })
-    Suggest test case edits
-    
-    VIEW
