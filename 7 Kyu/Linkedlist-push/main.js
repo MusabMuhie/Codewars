@@ -16,7 +16,6 @@ The buildOneTwoThree function should create and return a linked list with three 
 */
 
 //My Solution
-
 function Node(data, next = null) {
     this.data = data;
     this.next = next;
